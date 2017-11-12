@@ -36,8 +36,8 @@ class AppIndex extends Component {
             <Router>
                 <div>
                     <Switch>
-                        <Route path='/404' component={NotFound}/>
                         <Route path='/admin' component={Admin}/>
+                        <Route path='/404' component={NotFound}/>
                         <Route component={Front}/>
                     </Switch>
                     {isFetching && <Loading/>}

@@ -13,7 +13,7 @@ export default class Footer extends Component {
     render() {
         return(
             <div className={style.footer}>
-                <p className={style.copyright}>&copy; A Sam's Blog: <a href="https://github.com/sam408130/react-blog" target="blank">Github</a>.</p>
+                <p className={style.copyright}>&copy; A Seal's Blog: <a href="https://github.com/chenkeren1994" target="blank">Github</a>.</p>
             </div>
         )
     }

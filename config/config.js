@@ -6,14 +6,14 @@ module.exports = {
     dbHost:'localhost',
     dbPort:'27017',
     app:{
-        title:'Sam\'s Blog',
-        description:'A react blog by sam',
+        title:'Seal\'s Blog',
+        description:'A react blog by Seal',
         head:{
             titleTemplate:'blog',
             meta:[
                 {
                     name:'description',
-                    content:'react blog by sam'
+                    content:'react blog by Seal'
                 },
                 {
                     charset:'utf-8'

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 import style from './style.css';
-const logo = require('./logo.png');
+const logo = require('./seal.png');
 
 export default class Header extends Component {
 
@@ -19,8 +19,9 @@ export default class Header extends Component {
                 <span className={style.logo} onClick={this.props.handleLogin}>
                     <img src={logo} alt='' />
                 </span>
-                <h1>Sam's Blog</h1>
-                <p>If &nbsp; you &nbsp; can't &nbsp; measure &nbsp; it , &nbsp;  you &nbsp; can't &nbsp; improve &nbsp; it</p>
+                <h1>Seal's Blog</h1>
+                <p>It &nbsp; is &nbsp; hard &nbsp; to &nbsp; fail &nbsp;, &nbsp; but &nbsp; it &nbsp; is &nbsp; worse &nbsp;
+                    never &nbsp; to &nbsp; have &nbsp; tried &nbsp; to &nbsp; succeed.</p>
             </div>
         )
 
